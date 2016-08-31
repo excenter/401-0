@@ -26,17 +26,3 @@ var parseLine = (line) =>{
     }
     return line[line[line.length-1]]+line[line[line.length-2]];
 };
-
-// scope.accord = () => {
-//     $('.collapsible').collapsible({
-//       accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
-//     });
-//   };
-// var x ("offering", scope.OID, (err, response)=> {
-//     if (err) {
-//         throw(err);
-//     }
-//     else {
-//
-//     }
-// });
