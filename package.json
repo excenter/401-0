@@ -4,12 +4,12 @@
   "description": "VCU CMSC 401 algorithims test assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"lol, you thought you got a test?????\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "sson"
+    "url": "https://github.com/excenter/401-0"
   },
-  "author": "batz",
+  "author": "Andrew Batz / excenter",
   "license": "MIT"
 }
