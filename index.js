@@ -9,8 +9,9 @@ var parseLine = (line) =>{
     }
     return line[line[line.length-1]]+line[line[line.length-2]];
 };
-
+var output = '';
 var linez = parseInt(readlineSync.question(''));
 for (var i = 0; i < linez; i++) {
-    console.log(parseLine(formatLine(readlineSync.question(''))));
+    output = output + parseLine(formatLine(readlineSync.question(''))) + '\n';
 }
+console.log(output);
